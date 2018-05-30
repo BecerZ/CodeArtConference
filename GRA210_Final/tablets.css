@@ -1,0 +1,228 @@
+/* Tablet (regular iPad): Portrait. Vertical screen mode */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	
+	#wrapper	{
+		width: 726px;
+		margin: 25px auto;
+	}
+
+	header	{
+		height: 400px;
+	}
+	#herotext
+	{
+		width: 33%;
+		margin-right: 80px;
+		margin-top: 50px;
+	}
+	#logo
+	{
+		float: right;
+		margin-top: -175px;
+		margin-right: -70px;
+	}
+	#logo img
+	{
+		height: auto; 
+		width: auto; 
+		max-width: 200px; 
+		max-height: 200px;
+	}
+	.card	{
+		width: 47%;
+		height: 450px;
+		margin-top: 24px;
+	}
+	
+	.card img{
+		height: 200px; 
+		width: 341px; 
+	}
+	#herotext h1
+	{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	nav	{
+		width: 726px;
+	}
+	article	{
+		height: 500px;
+	}
+	.floattext	{
+		margin-top: 50px;
+	}
+	table	{
+		width: 96%;
+	}
+	#timetable_area table{
+		margin: auto;
+	}
+	#timetable_area .card	{
+		height: auto;
+	}
+	.modalDialog > div	{
+		width: 70%;
+	}
+	.buton_2{
+		margin-left: 40% !important;
+	}
+	#footer	{
+		width: 726px;		
+	}
+}
+/* Tablet (regular iPad): Landscape. Horizontal screen mode */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	#wrapper	{
+		width: 926px;
+		margin: 30px auto;
+	}
+	
+	header	{
+		height: 500px;
+	}
+	
+	#herotext
+	{
+		width: 33%;
+		float: right;
+		margin-right: 80px;
+		margin-top: 50px;
+	}
+	#logo
+	{
+		float: right;
+		margin-top: -175px;
+		margin-right: -15px;
+	}
+	#logo img
+	{
+		height: auto; 
+		width: auto; 
+		max-width: 200px; 
+		max-height: 200px;
+	}
+	.card	{
+		width: 47%;
+		height: 450px;
+		margin-top: 24px;
+	}
+	
+	.card img{
+		height: 200px; 
+		width: 435px; 
+		
+	}
+	#herotext h1
+	{
+		font-size: 25px;
+		line-height: 30px;
+
+	}
+	nav	{
+		width: 926px;
+	}
+	article	{
+		height: 500px;
+	}
+	.floattext	{
+		margin-top: 50px;
+	}
+	table	{
+		width: 96%;
+	}
+	#timetable_area table{
+		margin: auto;
+	}
+	#timetable_area .card	{
+		height: auto;
+	}
+	.modalDialog > div	{
+		width: 70%;
+	}
+	.buton_2{
+		margin-left: 42% !important;
+	}
+	
+	#footer	{
+		width: 926px;		
+	}
+}
+/* Tablet (iPad pro): Portrait. Vertical screen mode */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+	#wrapper	{
+		width: 964px;
+		margin: 25px auto;
+	}
+	header	{
+		height: 500px;
+	}
+	
+	#herotext
+	{
+		width: 33%;
+		float: right;
+		margin-right: 80px;
+		margin-top: 50px;
+	}
+	#logo
+	{
+		float: right;
+		margin-top: -175px;
+		margin-right: -15px;
+	}
+	#logo img
+	{
+		height: auto; 
+		width: auto; 
+		max-width: 200px; 
+		max-height: 200px;
+	}
+	.card	{
+		width: 47%;
+		height: 500px;
+		margin-top: 24px;
+	}
+	
+	.card img{
+		height: 250px; 
+		width: 453px; 
+		
+	}
+	.card_2 {
+		height: 325px;
+	}
+	#herotext h1
+	{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	nav	{
+		width: 926px;
+	}
+	article	{
+		height: 500px;
+	}
+	.floattext	{
+		margin-top: 50px;
+	}
+	table	{
+		width: 96%;
+	}
+	#timetable_area table{
+		margin: auto;
+	}
+	#timetable_area .card	{
+		height: auto;
+	}
+	.modalDialog > div	{
+		width: 70%;
+	}
+	.buton_2{
+		margin-left: 42% !important;
+	}
+	#footer	{
+		width: 926px;		
+	}
+
+}

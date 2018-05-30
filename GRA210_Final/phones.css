@@ -1,0 +1,301 @@
+/* iphone 4: Portrait. Vertical screen mode */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+	body	{
+		margin: 0;
+	}
+	#wrapper	{
+		width: 320px;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	
+
+	#herotext	{
+		width: 95%;
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	#logo
+	{
+		margin-top: -225px;
+		margin-right: -20px;
+	}
+	#logo img
+	{
+		height: auto; 
+		width: auto; 
+		max-width: 200px; 
+		max-height: 200px;
+	}
+	header	{
+		background-image: none;
+		height: auto;
+	}
+	nav	{
+		width: 320px;
+		font-size: 9px;		
+	}
+	nav ul	{
+		padding-left: 0 !important;
+	}
+	nav li	{
+		padding: 4px;
+	}
+	.card	{
+		width: 96%;
+		height: auto;
+		margin-top: 12px;
+	}
+	.card img {
+		height: 259px; 
+		width: 307.19px; 
+		
+	}
+	article	{
+		height: 300px;
+	}
+	.floattext	{
+		margin-top: 12px;
+	}
+	article .buton	{
+		width: 120px;
+		display: block;
+	}
+	table	{
+		width: 150%;
+		box-shadow: none;
+	}
+	
+	#timetable_area table{
+		margin: auto;
+	}
+	#timetable_area .card	{
+		height: auto;
+	}
+	#footer	{
+		width: 320px;
+	}
+	.buton_2{
+		margin-left: 30% !important;
+	}
+}
+/* iphone 4: Landscape. Horizontal screen mode */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+	body	{
+		margin: 0;
+	}
+	#wrapper	{
+		width: 480px;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	#herotext	{
+		width: 95%;
+		margin-top: 50px;
+		margin-right: -100px;
+	}
+	#logo
+	{
+		margin-top: -225px;
+		margin-right: 110px;
+	}
+	#logo img
+	{
+		height: auto; 
+		width: auto; 
+		max-width: 200px; 
+		max-height: 200px;
+	}
+	header	{
+		background-image: url("hero2.png");
+		height: 400px;
+	}
+	nav	{
+		width: 480px;
+		font-size: 14px;		
+	}
+	nav ul	{
+		padding-left: 0 !important;
+	}
+	nav li	{
+		padding: 4px;
+	}
+	.card	{
+		width: 96%;
+		height: auto;
+		margin-top: 12px;
+	}
+	.card img{
+		height: 259px; 
+		width: 460.8px; 
+		
+	}
+	article	{
+		height: 300px;
+	}
+	.floattext	{
+		margin-top: 12px;
+	}
+	article .buton	{
+		width: 120px;
+		display: block;
+	}
+	table	{
+		width: 150%;
+		box-shadow: none;
+	}
+	#timetable_area table{
+		margin: auto;
+	}
+	.buton_2{
+		margin-left: 35% !important;
+	}
+	#footer	{
+		width: 480px;
+	}
+}
+/* iphone 6+: Portrait. Vertical screen mode */
+@media screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+	body	{
+		margin: 0;
+	}
+	#wrapper	{
+		width: 414px;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	#herotext	{
+		width: 95%;
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	#logo
+	{
+		margin-top: -225px;
+		margin-right: 60px;
+	}
+	#logo img
+	{
+		height: auto; 
+		width: auto; 
+		max-width: 200px; 
+		max-height: 200px;
+	}
+	header	{
+		background-image: url("hero2.png");
+		height: auto;
+	}
+	nav	{
+		width: 414px;
+		font-size: 12px;		
+	}
+	nav ul	{
+		padding-left: 0 !important;
+	}
+	nav li	{
+		padding: 4px;
+	}
+	.card	{
+		width: 96%;
+		height: auto;
+		margin-top: 12px;
+	}
+	.card img{
+		height: 200px; 
+		width: 397.44px; 
+		
+	}
+	article	{
+		height: 300px;
+	}
+	.floattext	{
+		margin-top: 12px;
+	}
+	article .buton	{
+		width: 120px;
+		display: block;
+	}
+	table	{
+		width: 150%;
+		box-shadow: none;
+	}
+	#timetable_area table{
+		margin: auto;
+	}
+	
+	.buton_2{
+		margin-left: 35% !important;
+	}
+	#footer	{
+		width: 414px;		
+	}
+}
+/* iphone 6+: Landscape. Horizontal screen mode */
+@media screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+	body	{
+		margin: 0;
+	}
+	#wrapper	{
+		width: 736px;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	#herotext	{
+		width: 60%;
+		margin: 20px 100px 0 0;
+	}
+	header	{
+		width: 736px;
+		background-image: url("hero2.png");
+		height: 400px;
+	}
+	nav	{
+		width: 736px;
+		font-size: 14px;		
+	}
+	nav ul	{
+		padding-left: 0 !important;
+	}
+	nav li	{
+		padding: 8px;
+	}
+	.card	{
+		width: 96%;
+		height: auto;
+		margin-top: 12px;
+	}
+	.card img{
+		height: 400px; 
+		width: 706.55px; 
+		
+	}
+	article	{
+		height: 300px;
+	}
+	.floattext	{
+		margin-top: 12px;
+	}
+	article .buton	{
+		width: 120px;
+		display: block;
+	}
+	table	{
+		width: 150%;
+		box-shadow: none;
+	}
+	
+	#timetable_area table{
+		margin: auto;
+	}
+	
+	.buton_2{
+		margin-left: 40% !important;
+	}
+	#footer	{
+		width: 736px;		
+	}
+}

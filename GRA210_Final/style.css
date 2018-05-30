@@ -1,0 +1,427 @@
+/* Refernce: Lecture 3, classnotes have been used */
+
+body 
+{
+	background-color: rgba(185,185,185, 1);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+#map
+{
+	width: 100%;
+	height: auto;
+}
+#wrapper
+{
+	width: 1200px;
+	height: auto;
+	overflow: auto;
+	margin: 50px auto;
+	background-color: rgba(230,230,230,0.6);
+	border-radius: 8px;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	
+}
+header 
+{
+	background-image: url("HeroImage3.png");
+	background-size: cover;
+	width: 100%;
+	height: 678px;
+}
+
+#herotext
+{
+	width: 30%;
+	float: right;
+	margin-right: 130px;
+	margin-top: 50px;
+}
+#logo
+{
+	float: right;
+	margin-top: -250px;
+	margin-right: -120px;
+}
+
+h1
+{
+	font-family: VT323;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 300;
+	color: #32548A;
+}
+
+h2
+{
+	font-family: VT323;
+	font-size: 36px;
+	font-weight: 300;
+	color: #32548A;
+	text-align: center;
+}
+
+h3	{
+	font-family: VT323;
+	font-size: 28px;
+	font-weight: 300;
+	color: #6E3E52;
+	margin: 12px 0 12px 12px;
+}
+h4	{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 12px;
+	color: #aabee0;
+}
+p	{
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 300;
+	margin: 12px;
+}
+
+.card	{
+	position: relative;
+	width: 23%; 
+	margin-left: 1.5%;
+	height: 440px; 
+	float: left;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: box-shadow .3s;
+	padding-bottom: 24px;
+	
+}
+.card img{ 
+		max-width: 800px; 
+		max-height: 500px;
+		border-radius: 10px 10px 0 0;
+		transition: all 0.3s ease;
+}
+
+.card:hover 	{
+	box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+}
+
+.card:hover > #asci_image	{
+	opacity: 0;
+}
+.card:hover > #card_image {
+	opacity: 1;
+}
+#asci_image {
+	position: relative; /* because it is a full-screen div, see the 4 lines below */
+	top: 0;
+	left: 0;
+	opacity : 1;
+}
+#card_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.card_2 {
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: box-shadow .3s;
+	padding-bottom: 24px;
+	text-align:center;
+}
+.card_2:hover	{
+	box-shadow: 0 50px 50px rgba(0,0,0,0.4);
+	border-radius: 10px;
+}
+#location_anchor{
+	margin-bottom: 20px;
+}
+
+
+.footer_buttons {
+	margin-right: 10px;
+}
+
+.buton_2
+{
+	text-decoration: none;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	background-color: #6E3E52;
+	padding: 8px;
+	border-radius: 4px;
+	transition: all 0.3s ease 0s;
+	
+	display: block;
+	margin-left: 44% !important;
+	width: 130px !important;
+	margin-top: 16px !important;
+}
+
+.buton_2:hover	{
+	background-color: #334254;
+	color: white;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+
+/* Fullwidth Image Section begins */
+article	{
+	width: 100%;
+	height: 678px;
+	float: left;
+	margin-top: 96px;
+	background-image: url('RegisterImage.jpg');
+	background-size: cover;
+}
+.floattext	{
+	margin-top: 96px;
+	width: 30%;
+	margin-left: 6%;
+}
+
+.buton	{
+	
+	text-decoration: none;
+	font-family: Roboto;
+	background-color: #6E3E52;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	padding: 8px;
+	border-radius: 4px;
+	transition: all 0.3s ease 0s;
+	
+}
+
+.buton:hover	{
+	background-color: #334254;
+	color: white;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Table and table area begin */
+
+#timetable_area	{
+	width: 100%;
+	float: left;
+	margin-top: 96px;	
+}
+table
+{
+  display: block;
+  font-family: Roboto;
+  font-size: 16px;
+  overflow: auto;
+  width: auto;
+  margin-top: 24px;
+  text-align: left;
+  width: 75%;
+  border-radius: 4px;
+  margin-left: 125px;
+  
+}
+th 
+{
+   background-color: rgb(240, 240, 240);
+   color: black;
+   font-weight: bold;
+   padding: 30px 30px;
+   text-align: left;
+}
+td 
+{
+  background-color: rgb(238, 238, 238);
+  color: rgb(111, 111, 111);
+  padding: 20px 20px;
+}
+  
+
+a	{
+	color: #aabee0;
+	font-weight: 400;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+a:hover	{
+	color: #334254;
+}
+
+#timetable_area .card {
+	background-color: transparent;
+	box-shadow: none;
+	margin-top: 48px;
+}
+#timetable_area .buton {
+	margin-left: 12px;
+	display: block;
+	width: 50%;
+	margin-top: 12px;
+	background-color: #6E3E52;
+}
+
+blockquote {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600; 
+	color: #6E3E52;
+	margin-left: 12px;
+	margin-right: 0px;
+	
+}
+nav {
+	width: 1200px;
+	font-family: Roboto;
+	position:fixed;
+	top: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+nav ul {
+    text-align:center;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	padding: 0 12px;
+}
+
+nav a {
+    color: #6E3E52;
+}
+nav a:hover {
+	color: #334254;
+}
+
+
+#footer {
+	width: 1200px;
+	text-align: center;
+	margin: 50px auto;
+}
+
+
+/* registration panel openModal vs*/
+.modalDialog {
+	font-family: Roboto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.75);
+	box-shadow: 0 25px 50px rgba(0,0,0,0.99);
+	overflow: auto;
+	opacity: 0; 
+	pointer-events: none;
+	transition: opacity 0.3s ease-in;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+/* element to element selector, it only selects the direct child div, yani modelDialog'un direct child'ına yürüyo. */
+
+.modalDialog > div {
+	background-color: white;
+	border-radius: 4px;
+	width: 55%;
+	height: auto;
+	margin: 10% auto;
+	padding: 24px 48px;
+	position: relative; 
+	/*içerideki elemanların positionu artık bu div'e göre relative, yani içindeki her şeyin referans noktası bu div, relative'i commandle ve close button'un yerine bak.*/
+}
+.closebutton {
+	text-align: center;
+	background-color: #6E3E52;
+	color: white;
+	font-weight: 700;
+	width: 40px;
+	border-radius: 20px;
+	font-size: 20px;
+	line-height:40px;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.closebutton:hover {
+	background-color: #334254;
+	color: white;
+	width: 50px;
+}
+
+.modalDialog textarea {
+	display: block;
+	outline: none;
+	border: none;
+	background-color: #eceff1;
+	resize: none;
+	height: 28px;
+	line-height: 28px;
+	width: 80%;
+	padding-left: 10px;
+	margin: 10px auto;
+	font-weight: 300 !important;
+}
+
+.sendbuton {
+	display: block;
+	text-decoration: none;
+	font-family: Roboto;
+	background-color: #6E3E52;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 8px;
+	border-radius: 4px;
+	transition: all 0.3s ease 0s;
+	margin-left: 10% !important;
+	width: 96px !important;
+	margin-top: 16px !important;
+}
+
+ .sendbuton:hover {
+	background-color: #334254;
+	color: white;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+}
+.modalDialog p 
+{
+	margin: 16px 0 0 0;
+	font-size: 12px;
+}
+
+#location_anchor iframe	{
+	display: block;
+	margin-bottom: 48px;
+}
+.no_line	{
+	border: none;
+}
+.right_align	{
+	/*text-align: right; /* this over-writes text-align: left; because it is more specific */
+	color: rgba(0,0,0,0.54);
+}
+.gray_text 	{
+	color: rgba(0,0,0,0.54);
+}
